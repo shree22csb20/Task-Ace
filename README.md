@@ -54,3 +54,26 @@ export default tseslint.config({
   },
 });
 ```
+
+Here’s what you need to do now:
+Stage the changed README file
+Run:
+
+git add README.md
+(or if you changed other files too, just run git add . to stage everything.)
+
+Commit the changes
+Run:
+
+git commit -m "Updated README with new sentence"
+Push to GitHub
+Run:
+
+git push origin main
+Summary:
+
+Step Command
+Stage files git add .
+Commit git commit -m "your message"
+Push git push origin main
+✅ After doing these three steps, your updated README will definitely show up on GitHub.
