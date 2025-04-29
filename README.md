@@ -77,3 +77,37 @@ Stage files git add .
 Commit git commit -m "your message"
 Push git push origin main
 ✅ After doing these three steps, your updated README will definitely show up on GitHub.
+
+What you should do:
+Stage all changes (both M and U files):
+
+bash
+Copy
+Edit
+git add .
+(the . means "add all changes in this folder.")
+
+Commit them:
+
+bash
+Copy
+Edit
+git commit -m "Add new files and update existing ones"
+Push to GitHub:
+
+bash
+Copy
+Edit
+git push origin main
+✅ After this:
+
+The U and M symbols will disappear.
+
+Git will consider your working directory clean.
+
+All updates will be visible on GitHub.
+
+Important:
+If there are files you don't want to push (like temporary files), you should add them to .gitignore before doing git add ..
+
+Otherwise, Git will push everything that's staged.
