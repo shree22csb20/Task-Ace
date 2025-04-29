@@ -69,7 +69,7 @@ git commit -m "Updated README with new sentence"
 Push to GitHub
 Run:
 
-git push origin main
+git push -u origin main
 Summary:
 
 Step Command
